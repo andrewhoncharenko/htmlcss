@@ -1,0 +1,11 @@
+#teammembers {
+    list-style: none;
+}
+
+#teammembers>li {
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+}
+footer {
+    padding-left: 100px;
+}
