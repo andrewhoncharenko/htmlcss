@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    line-height: 24px;
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+h2, h3 {
+    color: #2E2F42;
+    margin: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+p {
+    border-style: none;
+    border-top-width: 0;
+    margin: 0;
+}
+
+header {
+    padding: 25px 80px 25px 340px;
+    background-color: #E7E9FC;
+}
+
+#logo1, #logo2 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#logo1 {
+    color: #4D5AE5;
+}
+#logo2 {
+    color: #2E2F42;
+}
+
+nav, address {
+    display: inline-block;
+}
+
+nav {
+    padding-right: 250px;
+}
+
+nav>a {
+    padding-right: 70px;
+}
+
+.navlink {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    padding-right: 50px;
+}
+
+.contactlink {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 40px;
+}
+
+#service {
+    background-color: #2E2F42;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#service button {
+    background-color: #4D5AE5;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+}
+
+#advantages, #team, #portfolio {
+    padding-left: 80px;
+}
+
+#advantages {
+    text-align: center;
+    padding: 100px 0 100px 0px;
+}
+
+#advantages h2 {
+    visibility: hidden;
+}
+
+#advantages li {
+    text-align: left;
+    padding-right: 25px;
+}
+
+#team {
+    background-color: #F4F4FD;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#team h2 {
+    padding-bottom: 80px;
+}
+
+#teammembers {
+    color: #434455;
+    width: 100%;
+}
+
+#teammembers>li {
+    margin-right: 20px;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 32px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 2px 1px 0 #2E2F4214;
+}
+
+#team>h2, #teammembers>li>h3 {
+    color: #2E2F42;
+}
+
+#teammembers h3 {
+    padding: 30px 0 0 0;
+}
+#teammembers p {
+    padding: 10px 50px 0 50px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+#portfolio>ul {
+    width: 80%;
+    margin-top: 70px;
+}
+
+#portfolio>ul>li {
+    margin-right: 20px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+#portfolio h3, #portfolio p {
+    padding-left: 16px;
+}
+
+#portfolio h3 {
+    padding-top: 32px;
+    border-style: solid;
+    border-color: #E7E9FC;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#portfolio p {
+    border-style: solid;
+    border-color: #E7E9FC;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    padding-bottom: 32px;
+}
+
+footer {
+    padding: 100px 80px 100px 80px;
+    background-color: #2E2F42;
+}
+
+footer p.footerinfo, #footerlogo2 {
+    color: #F4F4FD;
+}
+
+#footerlogo2 {
+    text-transform: uppercase;
+}
