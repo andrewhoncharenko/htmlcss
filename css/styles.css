@@ -1,8 +1,10 @@
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     color: #2E2F42;
-    line-height: 24px;
+    line-height: 1.5;
     background-color: white;
 }
 
@@ -10,7 +12,7 @@ h1 {
     color: white;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.072;
 }
 
 h2, h3 {
@@ -23,7 +25,13 @@ h2, h3 {
 h2 {
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.111;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 ul {
@@ -54,11 +62,10 @@ header {
 }
 
 #logo1, #logo2 {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.03em;
+    line-height: 1.16;
     text-align: left;
     text-transform: uppercase;
 }
@@ -85,15 +92,16 @@ nav>a {
 .navlink {
     color: #2E2F42;
     font-weight: 500;
-    font-size: 16px;
     padding-right: 50px;
 }
 
 .contactlink {
     color: #434455;
-    font-weight: 400;
-    font-size: 16px;
     padding-right: 40px;
+}
+
+.navlink:hover, .navlink:focus, .contactlink:hover, .contactlink:focus {
+    color: #404BBF;
 }
 
 #service {
@@ -107,10 +115,18 @@ nav>a {
     background-color: #4D5AE5;
     color: white;
     font-weight: 500;
-    font-size: 16px;
     border: 0;
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
+    cursor: pointer;
+}
+
+#service button:hover, #service button:focus {
+    background-color: #4D5AE5;
+}
+
+#service button:active {
+    background-color: #404BBF;
 }
 
 #advantages, #team, #portfolio {
@@ -166,7 +182,6 @@ nav>a {
 }
 #teammembers p {
     padding: 10px 50px 0 50px;
-    font-weight: 400;
     font-size: 16px;
 }
 
@@ -219,4 +234,5 @@ footer p.footerinfo, #footerlogo2 {
 
 #footerlogo2 {
     text-transform: uppercase;
+    font-weight: 700;
 }
